@@ -1,7 +1,5 @@
 
 from typing import Collection
-
-
 import collections
 
 
