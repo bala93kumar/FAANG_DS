@@ -6,7 +6,6 @@ def lenOfLastWord(word):
             count += 1
         elif word[i] == ' ':
             count = 0
-
     return count
 
 
