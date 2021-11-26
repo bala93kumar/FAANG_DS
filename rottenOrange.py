@@ -26,7 +26,7 @@ def rottenOrange(grid):
             if 0<=new_r<m and 0<=new_c<n and grid[new_r][new_c] == 1 and (new_r,new_c) not in visited:
                 q.append(( (new_r,new_c), time+1 ))
                 visited.add((new_r,new_c))
-                grid[new_r][new_c] =2
+                grid[new_r][new_c] = 2
 
     for i in range(0,m):
         for j in range(0,n):
@@ -39,7 +39,9 @@ def rottenOrange(grid):
 
 
 if __name__ == "__main__":
-    grid = [[2,1,1],[1,1,0],[0,1,1]]
+    grid = [[2,1,1],
+            [1,1,0],
+            [0,1,1]]
 
     print(rottenOrange(grid))
 
