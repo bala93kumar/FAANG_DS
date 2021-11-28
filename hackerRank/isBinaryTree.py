@@ -44,9 +44,7 @@ class BST():
 
 
 def isBst(root):
-
-
-
+    pass
 
 
 
