@@ -1,3 +1,12 @@
+def preOrder(root):
+
+    if root is None:
+        return
+
+    print(root.data,end=" ")
+    preOrder(root.left)
+    preOrder(root.right)
+
 def inOrder(root):
     if root is None:
         return
@@ -57,4 +66,6 @@ if __name__  == "__main__":
     bst1.insert(0)
     inOrder(bst1.root)
 
-    print(isbst(bst1.root))
+    # print(isbst(bst1.root))
+
+    preOrder(bst1.root)
