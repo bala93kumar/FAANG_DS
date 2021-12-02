@@ -66,6 +66,6 @@ if __name__  == "__main__":
     bst1.insert(0)
     inOrder(bst1.root)
 
-    # print(isbst(bst1.root))
+    #print(isbst(bst1.root))
 
     preOrder(bst1.root)
