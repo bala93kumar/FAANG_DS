@@ -1,6 +1,5 @@
 import numpy as np
 
-
 class Graph:
 
     def __init__(self , vertices):
@@ -35,6 +34,7 @@ class Graph:
             for j in range(self.vertices):
                 if  self.adjMat[i][j] != 0:
                     print(i, '---', j )
+
     def outdegree(self, v):
         count = 0
         for j in range(self.vertices):
@@ -51,9 +51,6 @@ class Graph:
 
     def display(self):
         print(self.adjMat)
-
-
-
 
 if __name__ == "__main__":
 
@@ -77,6 +74,8 @@ if __name__ == "__main__":
     graph1.edges()
 
     print(graph1.exist_edge(1,3))
+
+
 
 
 
