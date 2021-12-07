@@ -75,11 +75,3 @@ if __name__ == "__main__":
 
     print(graph1.exist_edge(1,3))
 
-
-
-
-
-
-
-
-
