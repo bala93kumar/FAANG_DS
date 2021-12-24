@@ -58,12 +58,8 @@ def minDistance(graph,m,n):
 
 
 
-
-
-
-
-
 if __name__ == '__main__':
+
     grid = [['0', '*', '0', 's'],
             ['*', '0', '*', '*'],
             ['0', '*', '*', '*'],
@@ -74,3 +70,4 @@ if __name__ == '__main__':
 
 
     print(minDistance(grid,m,n))
+
