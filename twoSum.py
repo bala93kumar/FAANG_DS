@@ -15,7 +15,6 @@ def twoSum(target , nums : list[int]):
 
 
 
-
 if __name__ == "__main__":
 
     arr =  [2, 6, 5, 8 ,11]

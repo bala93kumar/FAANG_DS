@@ -18,8 +18,10 @@ if __name__ == "__main__":
     target = 5
 
     result = twoSum(arr, target)
-
     print(result)
+
+    # for i , n in enumerate(arr):
+    #     print(i,n)
 
     # premap1 = {1:2 , 2:3}
     #
