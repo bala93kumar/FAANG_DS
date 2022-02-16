@@ -32,10 +32,7 @@ def minValue(arr,k):
 if __name__ == "__main__":
 
     arr = [1,2,3,1,2]
-
     #arr = [8,2,4]
-
-
     print(minValue(arr,1))
 
 
