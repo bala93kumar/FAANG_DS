@@ -1,7 +1,15 @@
 
 
+def twoSumBruteForce(target , nums):
 
-def twoSum(target , nums : list[int]):
+    for i in range(0, len(arr)):
+        for j in range(0 , len(arr)):
+            if arr[i] + arr[j] == target:
+                return [i, j]
+
+    return -1
+
+def twoSum(target , nums):
 
     preMap = {}
 
@@ -19,7 +27,11 @@ if __name__ == "__main__":
 
     arr =  [2, 6, 5, 8 ,11]
 
-    print(twoSum(14,arr))
+    # print(twoSum(14,arr))
+
+    print("brute force solution")
+
+    print(twoSumBruteForce(20,arr))
 
     # premap1 = {1:2 , 2:3}
     #
