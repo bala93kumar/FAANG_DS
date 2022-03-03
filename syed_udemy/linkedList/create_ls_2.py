@@ -1,3 +1,12 @@
+
+def printReverse(node):
+
+    current = node
+    while current!=None:
+        print(current._element, end="--->")
+        current = current._next
+
+
 class Node:
 
     __slots__ = '_element', '_next'
@@ -68,11 +77,9 @@ class LinkedList:
         newNode._next = nextto
 
     def reverseLinkedList(self):
-
-
         if self.head == None :
             return None
-        else :
+        else:
             previous = None
             next = None
 
@@ -82,6 +89,7 @@ class LinkedList:
                 next = node._next
                 node._next = previous
                 previous = node
+                node = next
 
         return previous
 
@@ -124,9 +132,10 @@ if __name__ == "__main__":
     list1.insertAny(8, 3)
     list1.display()
 
-    list1.reverseLinkedList()
+    reversed = list1.reverseLinkedList()
 
-    list1.display()
+    print("\n")
+    printReverse(reversed)
 
     # list1.searchElement(2)
 
