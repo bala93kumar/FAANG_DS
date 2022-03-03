@@ -10,6 +10,7 @@ class Node :
         self._element = element
         self._next = next
 
+    
 
 
 if __name__ == "__main__":
