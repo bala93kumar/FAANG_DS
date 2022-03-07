@@ -25,8 +25,6 @@ def isAnagram(s1,s2):
         else :
             return False
 
-
-
 s = 'anagram'
 t = 'nagaram'
 
