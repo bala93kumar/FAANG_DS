@@ -1,10 +1,11 @@
-list1  = [1,2,4,3]
+list1  = [1,2,4]
 
 list2  = [10,9,2,5,3 ]
 
 # print(result)
 # for j in range(3,4):
 #     print(j)
+
 
 def maxSumSequence(arr):
     maxVal = 1
