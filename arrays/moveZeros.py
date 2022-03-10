@@ -13,4 +13,29 @@ def move_zeroes(arr):
     print(current_index)
     return arr
 
-print(move_zeroes(list1))
+
+def moveZeoresLeetcode(arr):
+
+    n = len(arr)
+
+    if n == 0 or n== 1:
+        return -1
+
+    left = 0
+    right = 0
+
+    while(right < n):
+        if arr[right] == 0:
+            right +=1
+        else :
+            temp  =  arr[left]
+            arr[left] =  arr[right]
+            arr[right] = temp
+            left +=1
+            right +=1
+    return arr
+
+
+# print(move_zeroes(list1))
+
+print(moveZeoresLeetcode(list1))
