@@ -8,9 +8,7 @@ def smalled(nums:list[int],k):
                 nums[j] = nums[j+1]
                 nums[j+1] = temp
 
-
     return nums[k-1]
-
 
 def largest(nums:list[int],k):
 
