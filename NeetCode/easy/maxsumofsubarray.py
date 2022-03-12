@@ -36,9 +36,9 @@ def kandane(list1):
     curr_sum = 0
     max_so_far = list1[0]
 
-    st = 0
-    en =0
-    poi = 0
+    # st = 0
+    # en =0
+    # poi = 0
 
     for i in range(len(list1)):
         curr_sum = curr_sum +  list1[i]
@@ -52,7 +52,7 @@ def kandane(list1):
 
 
 if __name__ == "__main__":
-    list1 = [1, 2, 3, 4]
+    list1 = [1, 2, -3, 4]
 
     # bruteForce(list1)
 
